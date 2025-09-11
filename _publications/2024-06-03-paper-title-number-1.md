@@ -9,6 +9,7 @@ venue: 'Graphics Interface'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/vm.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: '<b>Zaiqiang Wu<sup>*</sup></b>, Jingyuan Liu<sup>*</sup> You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: '<b>Zaiqiang Wu<sup>*</sup></b>, Jingyuan Liu<sup>*</sup>  (equal contribution), Toby Chong, I-Chao Shen, Takeo Igarashi. <i>Proceedings of the 50th Graphics Interface Conference
+</i>. <b>Graphic Interface 2024</b>.'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
