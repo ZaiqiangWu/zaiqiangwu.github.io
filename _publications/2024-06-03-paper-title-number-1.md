@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2024-06-03-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-06-03
-venue: 'Journal 1'
+venue: 'Graphics Interface 2025'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
