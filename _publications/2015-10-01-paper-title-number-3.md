@@ -8,7 +8,7 @@ date: 2025-06-12
 venue: 'arXiv preprint arXiv:2506.10468'
 #slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'http://zaiqiangwu.github.io/files/low-barrier.pdf'
-citation: '<b>Zaiqiang Wu</b>, Yechen Li, Jingyuan Liu, Yuki Shibata, Takayuki Hori, I Shen, Takeo Igarashi. <i>arXiv preprint arXiv:2506.10468
+citation: '<b>Zaiqiang Wu</b>, Yechen Li, Jingyuan Liu, Yuki Shibata, Takayuki Hori, I-Chao Shen, Takeo Igarashi. <i>arXiv preprint arXiv:2506.10468
 </i>. 2025.'
 ---
 
