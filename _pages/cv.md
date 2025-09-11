@@ -19,9 +19,9 @@ Education
   
 Skills
 ======
-* Skill 1
 * Programming
-  * C/C++
+  * C/C++, CUDA
+  * OpenGL
   * Python
   * PyTorch
 
