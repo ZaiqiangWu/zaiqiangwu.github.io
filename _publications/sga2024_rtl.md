@@ -1,5 +1,5 @@
 ---
-title: "Virtual Measurement Garment for Per-Garment Virtual Try-On"
+title: "Real-Time Virtual Try-On Using Generative AI"
 collection: publications
 category: misc
 permalink: /publication/sga2024_rtl
