@@ -8,6 +8,7 @@ date: 2024-12-03
 venue: 'SIGGRAPH Asia 2024 Real-Time Live!'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: 'http://zaiqiangwu.github.io/files/vm.pdf'
+videourl: ''
 #bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: '<b>Zaiqiang Wu</b>, I-Chao Shen, Yuki Shibata, Takayuki Hori, Mengjia Jin, Wataru Kubo, Takeo Igarashi. <i>SIGGRAPH Asia 2024 Real-Time Live!</i>.'
 ---
