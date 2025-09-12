@@ -87,6 +87,8 @@ publication_category:
     title: 'Conference Papers'
   manuscripts:
     title: 'Preprints'
+  misc:
+    title: 'Short Paper, Poster, and Demo'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
