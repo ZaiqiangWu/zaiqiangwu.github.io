@@ -87,6 +87,8 @@ publication_category:
     title: 'Conference Papers'
   manuscripts:
     title: 'Preprints'
+  thesis:
+    title: 'Dissertations'
   misc:
     title: 'Short Paper, Poster, and Demo'
 
