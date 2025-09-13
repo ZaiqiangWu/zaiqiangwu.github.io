@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, The University of Tokyo, 2025
+* Ph.D. in Computer Science, The University of Tokyo, 2025
 * M.S. in Control Science and Engineering, Zhejiang University, 2020
 * B.S. in Electrical Engineering, Harbin Institution of Technology, 2017
 
