@@ -7,7 +7,7 @@ excerpt: ''
 date: 2020-11-01
 venue: 'Journal of Visual Communication and Image Representation'
 #slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1047320320301851'
+paperurl: 'http://zaiqiangwu.github.io/files/jvcir2020.pdf'
 citation: '<b>Zaiqiang Wu</b>, Wei Jiang, Hongyan Yu. <i>Journal of Visual Communication and Image Representation</i>. 2020.'
 ---
 
