@@ -35,4 +35,4 @@ Publications
   
 Service
 ======
-* Technical paper reviewer for SIGGRAPH Asia 2025
+* Technical paper reviewer for SIGGRAPH Asia 2025, SIGGRAPH 2026
