@@ -1,11 +1,11 @@
 ---
 title: "Low-Barrier Dataset Collection with Real Human Body for Interactive Per-Garment Virtual Try-On"
 collection: publications
-category: manuscripts
+category: journals
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'This paper is about a low-barrier dataset collection method for per-garment virtual try-on.'
-date: 2025-06-12
-venue: 'arXiv preprint arXiv:2506.10468'
+date: 2025-12-31
+venue: 'IEEE Computer Graphics and Applications'
 #slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'http://zaiqiangwu.github.io/files/low-barrier.pdf'
 videourl: 'https://www.youtube.com/watch?v=YpnFBsQlZDc&t=23s'
