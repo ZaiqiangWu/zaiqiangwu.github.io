@@ -25,8 +25,8 @@ fi
 # ── 2. Configure bundle to install gems locally (avoids permission issues) ──
 bundle config set --local path 'vendor/bundle'
 
-# ── 3. Install gems if Gemfile.lock is missing or outdated ─────────────
-if [[ ! -f Gemfile.lock ]]; then
+# ── 3. Install / verify gems ────────────────────────────────────────────
+if ! bundle check &>/dev/null; then
   echo "📦 Installing Ruby dependencies locally (this may take a minute)..."
   bundle install || {
     echo ""
@@ -44,7 +44,18 @@ fi
 
 echo "✅ Jekyll $(bundle exec jekyll --version | awk '{print $3}')"
 
-# ── 5. Determine port (default 4000) and local network IP ───────────────
+# ── 5. Production build: compile SCSS → CSS and generate all static assets ──
+echo "🔨 Building site (compiling SCSS, generating assets)..."
+rm -rf _site
+if ! bundle exec jekyll build \
+    --config _config.yml,_config_docker.yml; then
+  echo ""
+  echo "❌ 'jekyll build' failed. Check errors above."
+  exit 1
+fi
+echo "✅ Build complete."
+
+# ── 6. Determine port (default 4000) and local network IP ───────────────
 PORT="${1:-4000}"
 NET_IP="$(ifconfig | grep 'inet ' | grep -v 127.0.0.1 | awk '{print $2}' | head -1)"
 [[ -z "${NET_IP}" ]] && NET_IP="your-ip"
@@ -57,11 +68,12 @@ echo "  Site:     http://localhost:${PORT}"
 echo "  Network:  http://${NET_IP}:${PORT}"
 echo ""
 
-# ── 6. Launch Jekyll serve ──────────────────────────────────────────────
+# ── 7. Launch Jekyll serve (using --skip-initial_build since we already built) ──
 echo "🚀 Serving on port ${PORT} (Ctrl+C to stop)..."
 exec bundle exec jekyll serve \
-  -H 0.0.0.0 \
-  -p "${PORT}" \
-  -w \
-  --livereload \
-  --config _config.yml,_config_docker.yml
+    --skip_initial_build \
+    -H 0.0.0.0 \
+    -p "${PORT}" \
+    -w \
+    --livereload \
+    --config _config.yml,_config_docker.yml
