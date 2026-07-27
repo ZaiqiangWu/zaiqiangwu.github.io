@@ -33,6 +33,7 @@ Publications
   {% endfor %}</ul>
 
   
-Service
+Review
 ======
-* Technical paper reviewer for SIGGRAPH Asia 2025, SIGGRAPH 2026
+* Journal: Pattern Recognition
+* Conference: SIGGRAPH Asia 2025, SIGGRAPH 2026
